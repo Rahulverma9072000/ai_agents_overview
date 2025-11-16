@@ -1,0 +1,29 @@
+Virtual Environments in Python
+A virtual environment is an isolated Python workspace that lets you manage dependencies for different projects separately.
+
+Key Uses:
+Dependency Isolation: Each project has its own set of packages and versions, preventing conflicts.
+Version Management: Run different Python versions or package versions across multiple projects.
+Clean Global Install: Keeps your system Python clean; all project packages stay local.
+Reproducibility: Easy to share requirements.txt so others can recreate the exact environment.
+Testing: Test code against different dependency versions without affecting other projects.
+
+Benefits:
+Avoid "works on my machine" issues
+Easier project collaboration
+Simple cleanup (delete the folder to remove everything)
+Works cross-platform (Windows, macOS, Linux)
+
+
+# Create virtual environment
+python3 -m venv myenv 
+So People use make .venv (. is used here to hide this folder)
+
+# Activate (macOS/Linux)
+source myenv/bin/activate
+
+# Install packages
+pip install numpy pandas
+
+# Deactivate when done
+deactivate

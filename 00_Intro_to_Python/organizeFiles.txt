@@ -1,0 +1,38 @@
+Organize Your Python Code 
+
+    chai_shop
+        run.py -> starts the app 
+        chai.py 
+        processing/
+        utils/
+            __init__.py 
+
+
+PEP 8
+
+PEP 8 is Python’s official style guide: a set of conventions for writing readable, consistent Python code. It’s not enforced by the language but widely adopted across projects and teams.
+
+Why follow PEP 8:
+
+Improves readability and maintainability.
+Makes collaboration easier.
+Enables consistent tooling (formatters, linters).
+Key points (concise):
+
+Indentation: 4 spaces, never tabs.
+Line length: 79 chars (docstrings/comments) / 88 commonly used for code.
+Naming: snake_case for functions/variables, PascalCase for classes, UPPER_CASE for constants.
+Imports: grouped & ordered — standard library, third-party, local; each group separated by a blank line.
+Whitespace: avoid extraneous spaces around (), [], {}, and before commas/colons; add spaces around binary operators.
+Blank lines: top-level functions/classes separated by two blank lines; methods inside classes by one blank line.
+Docstrings/comments: use clear docstrings (PEP 257) and keep comments meaningful.
+Avoid wildcard imports (from module import *).
+Prefer explicit over implicit; prefer readability.
+
+# bad
+def AddNumbers(a,b):return a+b
+
+# good
+def add_numbers(a, b):
+    """Return sum of a and b."""
+    return a + b

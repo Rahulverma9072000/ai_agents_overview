@@ -1,0 +1,24 @@
+Why Python?
+
+- Portable: Programs written in Python run on Windows, macOS, and Linux.
+- Readable: Clear, easy-to-read syntax (PEP 8 style).
+- Productive: Easy to learn and fast for prototyping.
+- Batteries included: Large standard library for many common tasks.
+- Multi-use: Web apps, automation, scripting, data science, machine learning, AI.
+- Ecosystem: Huge package index (PyPI) with libraries for almost anything.
+- Tooling: Virtual environments (venv), pip, formatters and linters (black, flake8).
+- Libraries: NumPy, pandas, scikit-learn, TensorFlow, PyTorch, Django, Flask, FastAPI, etc.
+- Typing & tooling: Optional type hints and static checkers (mypy).
+- Concurrency: asyncio and multiple concurrency models.
+- Interoperability: Easy to extend with C/C++ for performance-critical code.
+- Community & jobs: Large community, many learning resources and job opportunities.
+- Open source and cross-platform.
+
+When not ideal:
+- Not the best choice for low-level, real-time, or some high-performance embedded/mobile apps without native extensions.
+
+Resources:
+- https://docs.python.org
+- https://realpython.com
+- Official tutorials and community guides
+// ...existing code...
